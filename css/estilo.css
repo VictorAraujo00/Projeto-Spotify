@@ -1,6 +1,7 @@
 
 html, body, #home{
 	height: 100%;
+	overflow-x: hidden;
 }
 
 
@@ -90,6 +91,27 @@ nav.navbar-transparerente{
 
 .albuns{
 	padding: 10px 0;
+}
+
+#recursos{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#recursos h2{
+	color: white;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+
+.rotacionar{
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 80px;
 }
 
 
